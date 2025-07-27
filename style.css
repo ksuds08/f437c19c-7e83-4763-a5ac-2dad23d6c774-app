@@ -1,0 +1,19 @@
+body {
+  background-color: #f7f8fa;
+}
+
+header {
+  background-color: #4A90E2;
+}
+
+h1, h2, h3, h4 {
+  color: #4A90E2;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+footer {
+  background-color: #7F8C8D;
+}
