@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeCraft AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+        <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-eeM7RLe3Wv2HZ7Toub47POas/user-rnGwZEmjnwoUoF8lEvadvt0O/img-FyISZbn3RB1uusUfaI7aWYgn.png?st=2025-07-26T23%3A42%3A13Z&se=2025-07-27T01%3A42%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-26T13%3A25%3A31Z&ske=2025-07-27T13%3A25%3A31Z&sks=b&skv=2024-08-04&sig=8o%2BGnqfeJd0t2znkw/JxC37armFRJpcciulRl6cPY2M%3D" alt="ResumeCraft AI Logo" class="h-12">
+        <h1 class="text-lg font-bold">ResumeCraft AI</h1>
+    </header>
+    <main class="p-6">
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Craft Your Future, One Resume at a Time</h2>
+            <p class="text-lg">Welcome to ResumeCraft AI, where we help you create the perfect resume tailored to your career needs.</p>
+        </section>
+        <section id="features" class="mb-8">
+            <h3 class="text-xl font-semibold mb-4">Features</h3>
+            <ul class="space-y-4">
+                <li class="p-4 bg-white shadow rounded">
+                    <h4 class="font-bold">AI Analysis</h4>
+                    <p>Analyzes user's industry, career level, and achievements to suggest formats and styles.</p>
+                </li>
+                <li class="p-4 bg-white shadow rounded">
+                    <h4 class="font-bold">Keyword Optimization</h4>
+                    <p>Optimizes resumes for relevant keywords to enhance visibility.</p>
+                </li>
+                <li class="p-4 bg-white shadow rounded">
+                    <h4 class="font-bold">Industry-specific Advice</h4>
+                    <p>Provides tailored advice based on the user's industry.</p>
+                </li>
+                <li class="p-4 bg-white shadow rounded">
+                    <h4 class="font-bold">Real-time Feedback</h4>
+                    <p>Offers instant feedback to improve resume quality.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="upload" class="mb-8">
+            <h3 class="text-xl font-semibold mb-4">Get Started</h3>
+            <form id="resume-form" class="bg-white p-6 shadow rounded">
+                <label for="jobTitle" class="block mb-2 font-bold">Job Title</label>
+                <input type="text" id="jobTitle" name="jobTitle" class="w-full mb-4 p-2 border rounded" placeholder="e.g. Software Engineer">
+                <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2023 ResumeCraft AI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
